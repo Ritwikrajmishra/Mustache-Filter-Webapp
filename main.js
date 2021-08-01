@@ -30,7 +30,7 @@ function gotPoses(results)
     {
         console.log(results);
         mustacheX = results[0].pose.nose.x;
-        mustacheY = results[0].pose.nose.y + 10;
+        mustacheY = results[0].pose.nose.y - 5;
         console.log("mustache x = " + mustacheX);
         console.log("mustache y = " + mustacheY);
     }
